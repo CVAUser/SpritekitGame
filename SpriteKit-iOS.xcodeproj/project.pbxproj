@@ -13,6 +13,7 @@
 		F9AC511A26CEC1B200E017F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AC511826CEC1B200E017F7 /* Main.storyboard */; };
 		F9AC511C26CEC1B400E017F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AC511B26CEC1B400E017F7 /* Assets.xcassets */; };
 		F9AC511F26CEC1B400E017F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AC511D26CEC1B400E017F7 /* LaunchScreen.storyboard */; };
+		F9AC512926CEDC0900E017F7 /* SafariScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC512826CEDC0900E017F7 /* SafariScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F9AC511B26CEC1B400E017F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9AC511E26CEC1B400E017F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9AC512026CEC1B400E017F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9AC512826CEDC0900E017F7 /* SafariScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				F9AC510E26CEC1B200E017F7 /* AppDelegate.swift */,
 				F9AC511426CEC1B200E017F7 /* OceanScene.swift */,
+				F9AC512826CEDC0900E017F7 /* SafariScene.swift */,
 				F9AC511626CEC1B200E017F7 /* GameViewController.swift */,
 				F9AC511826CEC1B200E017F7 /* Main.storyboard */,
 				F9AC511B26CEC1B400E017F7 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AC512926CEDC0900E017F7 /* SafariScene.swift in Sources */,
 				F9AC511526CEC1B200E017F7 /* OceanScene.swift in Sources */,
 				F9AC511726CEC1B200E017F7 /* GameViewController.swift in Sources */,
 				F9AC510F26CEC1B200E017F7 /* AppDelegate.swift in Sources */,
