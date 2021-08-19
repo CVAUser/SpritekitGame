@@ -1,5 +1,5 @@
 //
-//  GameScene.swift
+//  OceanScene.swift
 //  SpriteKit-iOS
 //
 //  Created by Slava on 19.08.2021.
@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-class GameScene: SKScene {
+class OceanScene: SKScene {
     
     override func didMove(to view: SKView) {
         

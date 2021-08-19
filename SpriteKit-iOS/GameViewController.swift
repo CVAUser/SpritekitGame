@@ -15,8 +15,8 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene' file
-            let scene = GameScene(size: self.view.bounds.size)
+            // Load the SKScene from 'OceanScene' file
+            let scene = OceanScene(size: self.view.bounds.size)
             scene.scaleMode = .resizeFill
             print(scene.size)
             
