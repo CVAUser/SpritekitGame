@@ -11,6 +11,11 @@ import SpriteKit
 class SafariScene: SKScene {
     
     override func didMove(to view: SKView) {
-        <#code#>
+        self.backgroundColor = .red
+        self.scaleMode = .resizeFill
+        let tiger = SKLabelNode(text: "Tiger")
+        tiger.name = "tiger"
+        tiger.position = CGPoint(x: self.view!.bounds.size.width/2, y: self.view!.bounds.size.height/2)
+        addChild(tiger)
     }
 }

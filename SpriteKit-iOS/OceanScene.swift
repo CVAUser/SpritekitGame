@@ -41,7 +41,17 @@ class OceanScene: SKScene {
             let fadeAway = SKAction.fadeOut(withDuration: 0.25)
             let remove = SKAction.removeFromParent()
             let moveSequence = SKAction.sequence([moveUp, zoom, pause, fadeAway, remove])
-            shark.run(moveSequence)
+            shark.run(moveSequence, completion: {
+                
+//                MARK: Transitioning between scenes
+//
+//                Initialize new safari scene
+//                Implement a completion handler to create and present a new scene.
+                
+                let safariScene = SafariScene(size: self.view!.bounds.size)
+                let safariLevel = SKTransition.doorsOpenVertical(withDuration: 0.5)
+                self.view?.presentScene(safariScene, transition: safariLevel)
+            })
         }
     }
 //    TODO: Place the text back on the scene after removing .
