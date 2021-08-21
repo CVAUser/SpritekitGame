@@ -21,7 +21,7 @@ class OceanScene: SKScene {
         let text = SKLabelNode(text: "Shark")
         text.name = "fish"
         text.position = CGPoint(x: self.view!.bounds.size.width/2, y: self.view!.bounds.size.height/2)
-        addChild(text)
+        self.addChild(text)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
